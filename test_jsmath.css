@@ -1,0 +1,41 @@
+h4{
+    margin-left: 35%;
+}
+
+input[type='number']{
+    border: 0;
+    outline: 0;
+}
+
+body form:not(:first-child) div div{
+    transform: scale(0.6);
+    margin-right: 0.5cm;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+body form:not(:first-child) div{
+   display: flex;
+   width: 100vh; 
+}
+input[type='radio']{
+    transform: scale(0);
+}
+
+#result{
+    border: 2px solid lightblue;
+    background-color: rgba(0,0,0, 0.7);
+    color: white;
+    margin-top: 1cm;
+    letter-spacing: 2px;
+    font-size: 20px;
+    width: 7cm;
+    height: 4cm;
+    padding-top: 0.5cm;
+    padding-left: 0.5cm;
+    border-radius: 10px;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
